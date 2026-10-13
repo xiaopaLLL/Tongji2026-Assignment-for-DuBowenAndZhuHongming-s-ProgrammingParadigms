@@ -1,100 +1,50 @@
 # 程序设计范式作业
 
-这是同济大学 2026 年《程序设计范式》课程作业仓库，当前包含第一批作业内容，主要使用 C++ 实现基础算法题与输入输出处理题。
+同济大学 2026 年《程序设计范式》课程作业代码，使用 C++ 编写。
 
-## 项目概览
-
-本仓库用于保存与提交课程作业代码，当前目录结构如下：
+## 文件结构
 
 ```text
-Tongji2026-Assignments-for-DuBowen-s-ProgrammingParadigms
+.
 ├── Assignment-1
-│   ├── A.cpp
-│   ├── B.cpp
-│   ├── C.cpp
+│   ├── 1   In-Place Prefix Sums.cpp
+│   ├── 2   Modifying a String Through a Pointer and a Reference.cpp
+│   ├── 3   Maximum Profit from One Stock Transaction.cpp
 │   └── Assignment1.docx
+├── Assignment-2
+│   ├── 4    Largest Minimum-Change Palindrome.cpp
+│   ├── 5   Maximum Product After Integer Break.cpp
+│   ├── 6   Signed Huge Product.cpp
+│   └── Assignment2.docx
 ├── .gitignore
-├── README.md
-└── .vscode/
+└── README.md
 ```
 
-## Assignment 1 说明
+## 作业列表
 
-`Assignment-1` 中包含三道 C++ 编程题，分别对应三个源文件：
+### Assignment 1
 
-- `A.cpp`：处理数组输入与前缀和输出
-- `B.cpp`：字符串前缀处理与大小写转换
-- `C.cpp`：股票最大利润问题（单次扫描法）
+| 文件 | 题目内容 |
+| --- | --- |
+| `1   In-Place Prefix Sums.cpp` | 原地前缀和 |
+| `2   Modifying a String Through a Pointer and a Reference.cpp` | 指针与引用修改字符串 |
+| `3   Maximum Profit from One Stock Transaction.cpp` | 单次股票交易最大利润 |
 
-### 1. A.cpp
+### Assignment 2
 
-功能：
-- 读取一个整型数组
-- 依次输出原数组
-- 计算前缀和并输出前缀和数组
+| 文件 | 题目内容 |
+| --- | --- |
+| `4    Largest Minimum-Change Palindrome.cpp` | 最小修改回文串 |
+| `5   Maximum Product After Integer Break.cpp` | 整数拆分最大乘积 |
+| `6   Signed Huge Product.cpp` | 带符号大数乘法 |
 
-实现思路：
-- 先读取 `n` 和数组元素
-- 再遍历数组，逐项累加得到前缀和
-- 通过 `std::vector<long long>` 保存数据，避免整数溢出风险
+## 编译运行
 
-### 2. B.cpp
-
-功能：
-- 读取一个字符串
-- 输出原字符串
-- 为字符串前添加前缀 `CPP_`
-- 将字符串转换为大写
-
-实现思路：
-- 使用 `std::string` 处理文本
-- `addPrefix` 通过指针传递修改原字符串
-- `makeUppercase` 通过引用传递并逐字符转换为大写
-
-### 3. C.cpp
-
-功能：
-- 读取当天的股价序列
-- 求解最大利润（买卖股票一次）
-
-实现思路：
-- 维护前缀最小值
-- 每天计算当前卖出时的利润：`price[i] - prefixMin`
-- 取所有天中的最大值即可
-- 时间复杂度为 `O(n)`，空间复杂度为 `O(1)`（额外变量常数级）
-
-## 运行方式
-
-建议使用 g++ 编译，示例命令如下：
-
-### Windows / PowerShell
+使用支持 C++17 的编译器，例如 `g++`：
 
 ```powershell
-g++ -std=c++17 -O2 .\Assignment-1\A.cpp -o A.exe
-.\A.exe < .\Assignment-1\input.txt
-
-g++ -std=c++17 -O2 .\Assignment-1\B.cpp -o B.exe
-.\B.exe < .\Assignment-1\input.txt
-
-g++ -std=c++17 -O2 .\Assignment-1\C.cpp -o C.exe
-.\C.exe < .\Assignment-1\input.txt
+g++ -std=c++17 -O2 ".\Assignment-2\6   Signed Huge Product.cpp" -o solution.exe
+.\solution.exe
 ```
 
-### Linux / macOS
-
-```bash
-g++ -std=c++17 -O2 Assignment-1/A.cpp -o A
-./A < Assignment-1/input.txt
-
-g++ -std=c++17 -O2 Assignment-1/B.cpp -o B
-./B < Assignment-1/input.txt
-
-g++ -std=c++17 -O2 Assignment-1/C.cpp -o C
-./C < Assignment-1/input.txt
-```
-
-## 说明
-
-- 本仓库适合用于课程作业的代码保存与提交。
-- 代码均为 C++ 原生实现，逻辑简洁，便于复盘与扩展。
-
+将命令中的源文件替换为要运行的作业代码即可。程序从标准输入读取数据。
