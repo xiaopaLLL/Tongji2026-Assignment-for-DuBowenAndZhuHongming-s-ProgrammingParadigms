@@ -16,6 +16,11 @@
 │   ├── 5   Maximum Product After Integer Break.cpp
 │   ├── 6   Signed Huge Product.cpp
 │   └── Assignment2.docx
+├── Assignment-3
+│   ├── 7   Longest Subarray with All Distinct Elements.cpp
+│   ├── 8   Distinct Elements in Every Window of Size k.cpp
+│   ├── 9   Range in Every Window of Size k.cpp
+│   └── Assignment3.docx
 ├── .gitignore
 └── README.md
 ```
@@ -37,6 +42,14 @@
 | `4    Largest Minimum-Change Palindrome.cpp` | 最小修改回文串 |
 | `5   Maximum Product After Integer Break.cpp` | 整数拆分最大乘积 |
 | `6   Signed Huge Product.cpp` | 带符号大数乘法 |
+
+### Assignment 3
+
+| 文件 | 题目内容 |
+| --- | --- |
+| `7   Longest Subarray with All Distinct Elements.cpp` | 最长无重复元素子数组 |
+| `8   Distinct Elements in Every Window of Size k.cpp` | 每个长度为 k 的窗口中的不同元素个数 |
+| `9   Range in Every Window of Size k.cpp` | 每个长度为 k 的窗口中的极差 |
 
 ## 编译运行
 
