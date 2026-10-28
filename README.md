@@ -21,6 +21,11 @@
 │   ├── 8   Distinct Elements in Every Window of Size k.cpp
 │   ├── 9   Range in Every Window of Size k.cpp
 │   └── Assignment3.docx
+├── Assignment-4
+│   ├── 10   Check Nested Brackets.cpp
+│   ├── 11   Merge Campus Room Reservations.cpp
+│   ├── 12   Shortest Campus Walk.cpp
+│   └── Assignment4.docx
 ├── .gitignore
 └── README.md
 ```
@@ -50,6 +55,14 @@
 | `7   Longest Subarray with All Distinct Elements.cpp` | 最长无重复元素子数组 |
 | `8   Distinct Elements in Every Window of Size k.cpp` | 每个长度为 k 的窗口中的不同元素个数 |
 | `9   Range in Every Window of Size k.cpp` | 每个长度为 k 的窗口中的极差 |
+
+### Assignment 4
+
+| 文件 | 题目内容 |
+| --- | --- |
+| `10   Check Nested Brackets.cpp` | 检查括号嵌套 |
+| `11   Merge Campus Room Reservations.cpp` | 合并校园房间预约 |
+| `12   Shortest Campus Walk.cpp` | 最短校园步行路径 |
 
 ## 编译运行
 
