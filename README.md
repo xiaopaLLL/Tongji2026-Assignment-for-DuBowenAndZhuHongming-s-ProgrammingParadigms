@@ -26,6 +26,11 @@
 │   ├── 11   Merge Campus Room Reservations.cpp
 │   ├── 12   Shortest Campus Walk.cpp
 │   └── Assignment4.docx
+├── Assignment-5
+│   ├── 13   First and Last Position of a Score.cpp
+│   ├── 14   The k-th Largest Score.cpp
+│   ├── 15   Counting Out-of-Order Pairs.cpp
+│   └── Assignment5.docx
 ├── .gitignore
 └── README.md
 ```
@@ -63,6 +68,14 @@
 | `10   Check Nested Brackets.cpp` | 检查括号嵌套 |
 | `11   Merge Campus Room Reservations.cpp` | 合并校园房间预约 |
 | `12   Shortest Campus Walk.cpp` | 最短校园步行路径 |
+
+### Assignment 5
+
+| 文件 | 题目内容 |
+| --- | --- |
+| `13   First and Last Position of a Score.cpp` | 成绩的首次与末次出现位置 |
+| `14   The k-th Largest Score.cpp` | 第 k 大成绩 |
+| `15   Counting Out-of-Order Pairs.cpp` | 统计逆序对 |
 
 ## 编译运行
 
